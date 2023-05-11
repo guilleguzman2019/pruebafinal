@@ -1,0 +1,52 @@
+.banner-image {
+    background-image: url(https://eventdate.es/wp-content/uploads/2022/09/FONDO-SI-ACEPTO.png);
+    background-size: cover;
+  }
+
+
+.titulo{
+
+font-family: "Montserrat Alternates";
+font-size: 40px;
+color:white;
+font-weight: 800;
+
+}
+
+#contenido{
+
+padding: 70px 50px 10px 50px;
+
+}
+
+.contenidotexto{
+
+padding: 83px 111px 1px 111px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.contenidotexto{
+
+padding: 1px 20px 1px 20px;
+}
+
+.titulo{
+
+font-size: 30px;
+
+
+}
+
+}
+
+.contenedorbts a{
+
+    color: white;
+      background-color: black;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-family: "Montserrat Alternates";
+  }
