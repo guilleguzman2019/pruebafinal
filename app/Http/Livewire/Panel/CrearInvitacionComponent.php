@@ -105,6 +105,8 @@ class CrearInvitacionComponent extends Component
     {
         $invitaciones = Card::orderBy('title') -> paginate();
         $templates = Template::orderBy('name') -> with('categories')->get() ;
+        
+        dd($templates);
 
         return view('livewire.panel.crear-invitacion-component', compact('invitaciones', 'templates'))
                     ->layout('layouts.panel');
