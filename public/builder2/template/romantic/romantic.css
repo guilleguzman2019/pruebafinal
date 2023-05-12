@@ -1,0 +1,1193 @@
+.transparente{
+
+    background-color: rgba(255, 0, 0, 0);
+    border:none;
+    text-align: center;
+  }
+  
+  input:hover{
+  
+    border: 3px solid cyan;
+  }
+  
+  input{
+  
+    outline: none;
+  }
+  
+  textarea:hover{
+  
+    border: 3px solid cyan;
+  }
+  
+  textarea{
+  
+    outline: none;
+    overflow:hidden;
+    resize:none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    textarea{
+  
+       width: 80%;
+    }
+   
+  }
+  
+  .portada {
+    background: url("https://eventdate.es/wp-content/uploads/jet-engine-forms/1/2022/09/MODELO-BODA-1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: inset 0 0 0 2000px rgba(7, 7, 7, 0.3);
+  }
+  
+  @media only screen and (max-width: 768px) {
+  .portada {
+  
+  background-size: cover;
+  
+  }
+  }
+  
+  
+  
+  
+  .tituloPortada{
+    color: #FFFFFF;
+    font-family: "Oooh Baby", Sans-serif;
+    font-size: 120px;
+    font-weight: 300;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  max-width: 100% !important;
+  width: 80%;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  .tituloPortada {
+  font-size: 60px;
+  width: 100% !important;
+  }
+  }
+  
+  
+  .textoPortada{
+  
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  max-width: 100% !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  .textoPortada {
+  font-size: 25px;
+  letter-spacing: 4px;
+  width: 100% !important;
+  }
+  }
+  
+  .view-divider {
+    background-image: url('https://eleve11.ar/wp-content/uploads/2022/09/terminacion-1.png');
+    height: 180px;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-position: center;
+background-repeat: no-repeat;
+margin-top: -150px;
+}
+
+  
+  
+  #historia{
+  
+  background-color: #ffffff;
+  
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 4% 0% 7% 0%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  #historia{
+  
+  
+  padding: 6% 3% 12% 3%;
+  }
+  }
+  
+  
+  .tituloHistoria{
+  
+    color: #212121;
+    font-family: "Playfair Display SC", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+  margin-bottom: 35px;
+  max-width: 100% !important;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .tituloHistoria{
+  
+  font-size: 30px;
+  width: 100% !important;
+  
+  }
+  }
+  
+  .textoHistoria{
+  
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 28px;
+  }
+  
+  #eventos{
+  
+  padding: 4% 6% 4% 6%;
+  background-color: #e7e7e7;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  #eventos{
+  
+  padding: 15% 10% 15% 10%;
+  background-color: #ECE7E3;
+  }
+  }
+  
+  .card{
+  
+  height: 550px;
+  }
+  
+  .card-title{
+  
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+  
+  .divhorario{
+  
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  border-radius: 100px 100px 100px 100px;
+  width: 180px;
+  margin-bottom: 13px;
+  
+  }
+  
+  .card-lugar{
+  
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+  
+  .card-text{
+  
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: none;
+  line-height: 18px;
+  }
+  
+  .cardprecio{
+  
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+  
+  .card-img-top{
+  
+  height: 250px !important;
+  }
+  
+  
+  
+  #hashtag{
+  
+    background-color: white;
+  padding: 4% 4% 4% 4%;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  #hashtag{
+  
+  padding: 8% 0% 12% 0%;
+  
+  }
+  }
+  
+  .titulohashtag{
+
+    color: #212121;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+  max-width: 100% !important;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  .titulohashtag{
+  
+  font-size: 30px;
+  width: 100% !important;
+  
+  
+  }
+  }
+  
+  .hashtag{
+  
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family:Sans-serif !important;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: white;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .hashtag{
+  
+  margin-bottom: 20px;
+  font-size: 23px;
+  width: 80%;
+    margin: 0 auto;
+  
+  }
+  }
+  
+  
+  .botonhashtag{
+  
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #faf9f8;
+    border-radius: 100px 100px 100px 100px;
+    padding: 15px 40px 12px 40px;
+    border-color: #000000;
+    color:rgb(10, 10, 10);
+  }
+  
+  #galeria{
+  
+  padding: 4% 6% 4% 6%;
+  background-color: white;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  #galeria{
+  
+  padding: 9% 8% 10% 9%;
+  
+  }
+  }
+  
+  
+  .img{
+  
+  height: 500px;
+  object-fit: cover;
+  }
+  
+  #vestimenta{
+  
+    background-color: #ECE7E3;
+  padding: 4% 4% 4% 4%;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  #vestimenta{
+  
+  padding: 8% 0% 12% 0%;
+  
+  }
+  }
+  
+  
+  
+  #canciones{
+  
+  padding: 4% 4% 4% 4%;
+  background-color: white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  #canciones{
+  
+  padding: 8% 5% 8% 5%;
+  
+  }
+  }
+  
+  
+  .tituloCancion{
+  
+    color: #212121;
+    font-family: "Playfair Display SC";
+    font-size: 43px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  max-width: 100%;
+  
+  }
+  
+  .textocanciones{
+  
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .tituloCancion{
+  
+  font-size: 32px;
+  width: 100% !important;
+  
+  }
+  }
+  
+  
+  .owl-stage{
+  
+  margin: 0 auto;
+  }
+  
+  
+  .regalos{
+  
+  padding: 1px 79px 1px 79px;
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .regalos{
+  
+  padding: 1px 15px 1px 15px;
+  
+  }
+  }
+  
+  #regalos{
+  
+  padding: 4% 0% 6% 0%;
+  background-color: #e7e7e7;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  #regalos{
+  
+  padding: 10% 5% 14% 5%;
+  
+  }
+  }
+  
+  
+  .tituloregalo{
+  
+    color: #000000;
+    font-family: "Playfair Display SC";
+    font-size: 43px;
+  font-weight: 300;
+  max-width: 100%;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  .tituloregalo{
+  
+  font-size: 32px;
+  width: 100% !important;
+  
+  }
+  }
+  
+  
+  .textoregalo{
+  
+  text-align: center;
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 28px;
+  }
+  
+  .divtexto{
+  
+  margin-bottom: 10px;
+  }
+  
+  
+  .switcher {
+  display: inline-block;
+  height: 51px;
+  margin-top: 3px;
+  padding: 6px;
+  background: #ffffff00;
+  border-radius: 2px;
+  width: 210px;
+  border-radius: 30px;
+  border: solid 1px #ddd;
+  position: relative;
+  border: 3px solid white;
+  }
+  
+  .switcher__input {
+  display: none;
+  }
+  
+  .switcher__label {
+  float: left;
+  width: 50%;
+  font-size: 12px;
+  line-height: 30px;
+  color: #000 !important;
+  text-align: center;
+  cursor: pointer;
+  position: inherit;
+  z-index: 10;
+  transition: color 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: transform;
+  padding: 3px 0px 0px 0px;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  .switcher__toggle {
+  position: absolute;
+  float: left;
+  height: 37px;
+  width: 50%;
+  font-size: 12px;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 30px;
+  left: 5px;
+  top: 4px;
+  transition: left 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: transform;
+  color:black
+  }
+  
+  .switcher__input:checked + .switcher__label {
+  color: #fff;
+  }
+  
+  .switcher__input--yang:checked ~ .switcher__toggle {
+  left: 100px;
+  }
+  
+  
+  #inputEmail4{
+  
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: black; 
+  background-color: #ECE7E3;;
+  padding: 15px 15px 15px 15px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 100px 100px 100px 100px;
+  height:50px;
+  width: 100% !important;
+  }
+
+  #inputEmail5{
+  
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black; 
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 100px 100px 100px 100px;
+    height:50px;
+    width: 100% !important;
+    }
+  
+  
+  .labelform{
+  
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1A1A;
+  padding: 8px 8px 8px 8px;
+  }
+  
+  
+  .datosbancarios{
+  
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .datosbancarios{
+  
+  
+  font-size: 14px;
+  
+  }
+  }
+  
+  
+  
+  #main-bg{
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background: url(https://eleve11.ar/wp-content/uploads/2022/09/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg)no-repeat center center fixed;
+  box-shadow: inset 0 0 0 2000px rgba(7, 7, 7, 0.3);
+}
+  
+  
+  .textodedicatoria{
+  
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 100%;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .textodedicatoria{
+  
+  
+  font-size: 25px;
+  
+  
+  }
+  }
+  
+  .divdedicatoria{
+  
+  padding: 50px 0px 50px 0px;
+  }
+  
+  
+  #contador{
+  
+    position:relative;
+  
+  padding: 20px 0px 20px 0px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background: url(https://eventdate.es/wp-content/uploads/jet-engine-forms/1/2022/09/MODELO-BODA-1-1.jpg)no-repeat center center fixed;
+  box-shadow: inset 0 0 0 2000px rgba(7, 7, 7, 0.3);
+}
+  
+  
+  .divcontador{
+  
+  width: 100%;
+  }
+  
+  
+  
+  li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  }
+  
+  li span {
+  display: block;
+  font-size: 4.5rem;
+  }
+  
+  .emoji {
+  display: none;
+  padding: 1rem;
+  }
+  
+  .emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+  h1 {
+  font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+  font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+  font-size: calc(3.375rem * var(--smaller));
+  }
+  }
+  
+  
+  .contador{
+  
+  font-family: "Meow Script", Sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  
+  color:white;
+  padding: 1px 45px 1px 24px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .contador{
+  
+  
+    font-family: "Meow Script", Sans-serif;
+  font-size: 39px;
+  font-weight: 500;
+  color:white;
+  padding : 1px;
+  
+  }
+  }
+  
+  
+  .dias{
+  
+  color: #FFFFFF;
+  font-family:"Oooh Baby";
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: capitalize;
+  }
+  
+  
+  .divtransporte{
+  
+  margin: 0% 20% 0% 20%;
+  padding: 40px 0px 30px 0px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  .divtransporte{
+  
+  
+  margin: 0% 0% 0% 0%;
+  padding: 
+  
+  }
+  }
+  
+  
+  #confirmacion{
+  
+    background-color: #ECE7E3;
+  padding: 5% 10% 5% 10%;
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .confirmacion{
+  
+  
+  padding: 5% 3% 5% 3%;
+  
+  }
+  
+  }
+  
+  
+  .divconfirmacion{
+  
+  padding: 0% 0% 0% 20%;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  .divconfirmacion{
+  
+  
+  padding: 5% 3% 5% 3%;
+  
+  }
+  
+  
+  }
+  
+  .tituloconfirmacion{
+  
+  margin-bottom: 50px;
+  color: #000000;
+  font-family: "Playfair Display SC";
+  font-size: 40px;
+  font-weight: 200;
+  max-width: 100% !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .tituloconfirmacion{
+  
+  
+  font-size: 39px;
+  width: 100% !important;
+  
+  }
+  
+  
+  }
+  
+  
+  .textoconfirmacion{
+  
+  text-align: left;
+  color: #0a0a0a;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 28px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  .textoconfirmacion{
+  
+  
+  font-size: 16px;
+  
+  }
+  
+  
+  }
+  
+  
+  
+  .divformconfirmacion{
+  
+  margin: 2% 19% 0% 9%;
+  padding: 0px 0px 0px 0px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+  .divformconfirmacion{
+  
+  
+  padding: 0px;
+  margin:0px;
+  
+  }
+  
+  }
+  
+  .styler-editor{
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  color: #fff;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.76);
+  z-index: 9999999999;
+  }
+  
+  .styler-editor label{
+  display: block;
+  color: #ccc;
+  padding: 0.2rem 0;
+  font-size: 12px;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  
+  .styler-editor select{
+  margin-bottom: 10px;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  }
+  
+  .styler-editor select{
+  width: 100%;
+  box-sizing: border-box;
+  }
+  
+  
+  .styler-editor-count{
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  color: #fff;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.281);
+  z-index: 9999999999;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .styler-editor-count{
+  
+  right: 1%;
+  top: 281%;
+  
+  }
+  
+  }
+  
+  .styler-editor-count label{
+  display: block;
+  color: #ccc;
+  padding: 0.2rem 0;
+  font-size: 12px;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  .styler-editor-count input{
+  display: block;
+  padding: 0.2rem 0;
+  font-size: 15px;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  .styler-editor-count button{
+  margin-top: 3px;
+  display: block;
+  padding: 0.2rem 0;
+  font-size: 12px;
+  font-family: "Montserrat", Sans-serif;
+  width: 100%;
+  color:black;
+  border:solid 1px rgba(54, 42, 42, 0);
+  }
+  
+  
+  .styler-editor-musica{
+  position: fixed;
+  right: 1%;
+  top: 70%;
+  color: #fff;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.801);
+  z-index: 9999999999;
+  border-radius: 5px;
+  width: 176px;
+  }
+  
+  .styler-editor-musica label{
+  display: block;
+  color: #ccc;
+  padding: 0.2rem 0;
+  font-size: 12px;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  .styler-editor-musica input{
+  display: block;
+  padding: 0.2rem 0;
+  font-size: 15px;
+  width: 150px !important;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  .styler-editor-musica button{
+  margin-top: 3px;
+  display: block;
+  padding: 0.2rem 0;
+  font-size: 12px;
+  font-family: "Montserrat", Sans-serif;
+  width: 100%;
+  color:black;
+  border:solid 1px rgba(54, 42, 42, 0);
+  }
+  
+  
+  .changePortada{
+  
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+  text-align: center;
+  z-index: 99999999;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 9px;
+  }
+  
+  
+  .btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 50px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  .btn-hover {
+  width: 150px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 15px;
+  height: 40px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  font-family: "Montserrat", Sans-serif;
+  }
+  
+  }
+  
+  
+  .btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+  outline: none;
+  }
+  
+  
+  .btn-hover.color-10 {
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
+  
+  
+  
+  input{ font-size:1.3em; padding: 10px; }
+  
+  
+  #contenedor-play{
+      
+      position: fixed ;
+    
+  margin: 0% 0% 0% 0%;
+      background-color: #3333337A;
+      border-radius: 100px 100px 100px 100px;
+      padding: 3px;
+      height: 49px;
+      width: 83px;
+       z-index:999 ;
+  }
+  
+  #player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:40px;
+    width: 40px;
+    padding: 12px 18px;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+      background-repeat: no-repeat!important;
+      background-position: center;
+      background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+    background-color: gainsboro;
+  
+  
+  }
+  
+  
+  .pause{
+      border: 1px solid #000000;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 24px;
+  padding: 10px;
+     margin-left:7%;
+      width: 300px;
+      border: 3px solid white;
+          font-size: 10px;
+       background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+  }
+  .play{
+      border: 1px solid #000000;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 24px;
+  padding: 10px;
+     margin-left:7%;
+      width: 300px;
+      border: 3px solid white;
+          font-size: 10px;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/0/375.png);
+  }
+  
+  
+  .audio{
+  
+    position: fixed;
+    bottom: 60px;
+    left: 22px;
+    width: 300px;
+  }
+  
+  
+  
+  
+  .card-img-padrinos{
+  
+    width: 176px !important;
+    border-radius: 50% !important;
+    margin: 0 auto;
+  }
+  
+  
+  #testigos{
+  
+    padding: 4% 30% 4% 30%;
+    background-color: #D7B7A2;
+    }
+  
+    @media only screen and (max-width: 768px) {
+  
+      #testigos{
+      
+        padding: 4% 10% 14% 10%;
+      
+      }
+      
+      }
+  
+  
+    .titulopadrinos{
+  
+      color: #000000;
+      font-family: "Noto Serif Display", Sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      font-style: italic;
+      margin-bottom: 30px;
+      max-width: 100%;
+      
+      }
+  
+      @media only screen and (max-width: 768px){
+        .titulopadrinos {
+        font-size: 25px;
+        width: 100% !important;
+          }
+      }
+  
+  
+  
+      .card-name-padrino{
+  
+        font-family: "Noto Serif Display", Sans-serif;
+        font-size: 22px;
+      }
+  
+      .card-relacion{
+  
+        font-family: "Noto Serif Display", Sans-serif;
+        font-weight: 600;
+        font-size: 23px;
+      }

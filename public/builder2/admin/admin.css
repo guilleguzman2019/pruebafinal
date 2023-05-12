@@ -1,0 +1,173 @@
+.fila1{
+
+    height: 13%;
+    background: #3494E6 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(90deg, #EC6EAD, #3494E6) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #EC6EAD, #3494E6) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 28px;
+}
+
+.fila2{
+
+    height: 90%;
+    width: 100%;
+}
+
+
+.sidebar{
+
+    background-color: #212121;
+}
+
+.scroll{
+
+    overflow-y: scroll;
+}
+
+.botonera{
+
+    margin: 15% 9% 10% 9%;
+}
+
+.btn{
+
+    padding: 10px 20px 10px 20px;
+    margin-top:10px;
+    background-color: transparent;
+    background-image: linear-gradient(to right top, #ff6660, #2d2ce5);
+    border: 0px solid rgba(255, 0, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    font-weight: 700;
+}
+
+
+.bg-secondary{
+
+    background-color: #6c757d3b !important;
+}
+
+.bg-transparent{
+
+    background-color: white !important;
+}
+
+
+
+.bg-grey{
+
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+    padding-top: 15px !important;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+
+.btn-agregar{
+
+    padding: 11px 20px 10px 20px;
+    margin-top:27px;
+    background-color: transparent;
+    background-image: linear-gradient(to right top, #15bfdd, #c912da);
+    border: 0px solid rgba(255, 0, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    font-weight: 700;
+
+
+}
+
+.card-photo{
+
+    height: 169px !important;
+    width: 100% !important;
+    background-color: white;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+
+
+#img{
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+
+
+@import url("http://bootswatch.com/flatly/bootstrap.min.css");
+
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background:#ecf0f1;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -40%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    margin-left: 12px;
+  }
+}
+
+#sidebar {
+    padding:15px;
+    margin-top:10px;
+}
+
+.contenido {
+
+    padding: 1px 50px 1px 250px;
+    margin-top: 40px;
+}
+
+.ratio{
+
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.form-control {
+    background-color: #ecedee;
+}
+
+.text-titulo{
+
+    font-size: 20px !important;
+}
+
+.form-group select{
+
+    background-color: #ecedee;
+
+}

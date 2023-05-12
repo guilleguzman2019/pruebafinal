@@ -1,0 +1,122 @@
+
+
+.fila2{
+
+    height: 90%;
+
+    width: 100%;
+}
+
+
+.sidebar{
+
+    background-color: #212121;
+}
+
+
+
+.botonera{
+
+    margin: 10% 9% 10% 9%;
+}
+
+.btn{
+
+    padding: 10px 20px 10px 20px;
+    margin-top:10px;
+    background-color: transparent;
+    background-image: linear-gradient(to right top, #ff6660, #2d2ce5);
+    border: 0px solid rgba(255, 0, 0, 0);
+    color:white;
+    font-weight: 700;
+}
+
+.actualizar{
+
+    margin-top: 55px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    background-image: linear-gradient(to right top, #1fda19, #2d2ce5);
+    border: 0px solid rgba(255, 0, 0, 0);
+    font-family: "Montserrat Alternates";
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+.gradient{
+
+    height: 230px;
+    background-image: linear-gradient(to right top, #ff6660, #2d2ce5);
+    color:white;
+    border-radius: 30px;
+}
+
+
+
+img{
+
+    object-fit: contain;
+}
+
+.modal-backdrop {
+
+    position:  relative !important;
+}
+
+h5{
+
+    font-weight: 700 !important;
+}
+
+.modal-body input{
+
+    font-weight: 700 !important;
+}
+
+
+
+a{
+
+    text-decoration: none !important;
+}
+
+.table__head{
+    color: #FFF;
+    font-weight: 700;
+    background: #9b4085;
+    background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
+    background: -webkit-linear-gradient(-45deg, #9b4085 0%,#608590 100%);
+    background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
+    white-space: nowrap;
+    }
+    .table-bordered td, .table-bordered th{
+    border: 0px solid #FFF;
+    }
+    .coin {
+    width:8%;
+    margin-left: 5px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    
+    .winner__table{
+        white-space: nowrap;
+    }
+    
+    @media screen and (max-width: 567px) {
+    
+        .winner__table{
+        font-size: 12px;
+        }
+        .coin {
+        width:15%;
+        margin-left:2px;
+        }
+    }
