@@ -8,6 +8,4 @@ use App\Http\Controllers\Panel;
 //use App\Http\Livewire\Panel as Livewire;
 
 
-
-
 Route::get('/', Panel\PanelController::class) -> name('panel.dashboard');

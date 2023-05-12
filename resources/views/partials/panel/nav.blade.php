@@ -7,19 +7,19 @@
 
 
 	<div class="botonera">
-						<a href="{{ route('panel.crearInvitacion') }}">
+						<a href="">
 							<button class="btn" style="width: 90%">Crear Invitacion</button>
   						</a>
-						<a href="{{ route('panel.invitaciones') }}">
+						<a href="">
 							<button class="btn" style="width: 90%">invitaciones</button>
   						</a>
-						  <a href="{{ route('panel.confirmados') }}">
+						  <a href="">
 							<button class="btn" style="width: 90%">Confirmados</button>
   						</a> 
-						  <a href="{{route('panel.canciones')}}">
+						  <a href="">
 							<button class="btn" style="width: 90%">Canciones</button>
   						</a> 
-						  <a href="{{route('panel.transporte')}}">
+						  <a href="">
 							<button class="btn" style="width: 90%">Transporte</button>
   						</a> 
     </div>
