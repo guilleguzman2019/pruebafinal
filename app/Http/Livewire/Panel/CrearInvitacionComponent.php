@@ -98,7 +98,7 @@ class CrearInvitacionComponent extends Component
         $this -> reset(['createArray']);
         $this -> emit('saved');
 
-        Redirect::to('http://localhost:8000/panel/builder/'.$slug);
+        Redirect::to('https://invitaciondigital.store/panel/builder/'.$slug);
     }
 
     public function render()
